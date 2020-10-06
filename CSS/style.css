@@ -1,0 +1,199 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*NAVIGATION BAR */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    flex-wrap: nowrap;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 75px;
+    width: 79px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.nav-list{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-list li{
+    list-style: none;
+    padding: 8px 25px;
+    font-size: 20px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Aclonica';
+    transition: color 0.3s;
+}
+.nav-list li a:hover , .nav-list li a.active{
+    text-decoration: none;
+    color: #bdbcbc;
+}
+
+.rightnav{
+    width: 50%;
+    text-align: right;
+    padding: 22px 10px;
+    
+}
+#search{
+    font-size: 20px;
+    border-radius: 11px;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+/* BACKGROUND */ 
+.background{
+    background: url('../images/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.bg-section{
+    height: 91vh;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 65%;
+    margin: auto;
+    height: 80%;
+}
+.first-section{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Trade Winds';
+    text-shadow: -4px 5px black;
+}
+.second-section{
+    width: 30%;
+}
+.second-section img{
+    width: 70%;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 150px;
+}
+.text-big{
+    font-size: 45px;
+}
+.text-small{
+    font-size: 18px;
+}
+.btn{
+    padding: 5px 13px;
+    margin: 6px 5px;
+    font-size: 17px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    transition: linear;
+    transition: background-color 0.8s, color 0.8s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.btn-sm{
+    padding: 3px 11px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.btn-fixed{
+    position: fixed;
+    bottom: 0;
+    height: 134px;
+    right: 7px;
+    opacity: 0.8;
+}
+
+/* ABOUT SECTION */
+.info{
+    margin-top: 1px;
+    background: url(../images/night1.jpg); 
+    background-repeat: repeat-y;
+    background-size: cover;
+    opacity: 0.96;
+}
+.heading{
+    text-align: center;
+    font-size: 90px;
+    text-shadow: -2px 4px white;
+    font-family: 'Shojumaru';
+}
+.about{
+    padding: 22px 0px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 100px;
+    margin: 15px 15px 0px 15px;
+}
+.paras{
+    padding: 0px 25px;
+    color: white;
+}
+.head{
+    text-align: center;
+    padding: 17px;
+    font-family: 'Suez One';
+    font-size: 43px;
+    text-shadow: -5px 8px black;
+}
+.sub{
+    font-size: 18px;
+    text-shadow: -2px 2px black;
+    font-family: 'Timmana';
+}
+.thumbnail{
+    padding: 0px 40px;
+}
+.thumbnail img{
+    border-radius: 65px;
+    border: 3px solid white;
+    height: 300px;
+    width: 330px;
+}
+.left{
+    flex-direction: row-reverse;
+    z-index: 1;
+}
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px 22px;
+    font-size: 18px;
+    text-align: center;
+}

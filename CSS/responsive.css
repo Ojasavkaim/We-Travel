@@ -1,0 +1,89 @@
+.navbar{
+    flex-direction: column;
+    height: 450px;
+    transition: all 0.5s ease-out;
+}
+.nav-list{
+    flex-direction: column;
+}
+.rightnav{
+    text-align: center;
+    padding: 0px;
+}
+#search{
+    width: 100%;
+    font-size: 15px;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    top: 10px;
+}
+.line{
+    width: 40px;
+    height: 6px;
+    background: white;
+    margin: 5px 5px;
+    border-radius: 15px;
+}
+.btn{
+    font-size: 10px;
+}
+.btn-fixed{
+    height: 100px;
+}
+
+.h-nav-resp{
+    height: 55px;
+}
+.visible-resp{
+    opacity: 0;
+}
+
+
+.box{
+    flex-direction: column-reverse;
+    max-width: 100%;
+    text-align: center;
+    height: 100%;
+}
+.text-big{
+    font-size:30px;
+}
+.text-small{
+    font-size: 15px;
+}
+
+.second-section{
+    width: 100%;
+}
+.second-section img{
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+}
+
+.heading{
+    font-size: 70px;
+}
+.about , .left{
+    flex-direction: column-reverse;
+    border-radius: 65px;
+}
+.thumbnail{
+    display: block;
+    margin: auto;
+}
+.thumbnail img{
+    height: 200px;
+    width: 200px;
+}
+.head{
+    font-size: 30px;
+}
+
+footer{
+    font-size: 11px;
+}
